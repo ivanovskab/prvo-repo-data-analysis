@@ -40,17 +40,7 @@ s  = insert_sale(sesija, 1, 1)'''
 #########################################
 ## Zemanje podatoci
 
-'''emp = sesija.query(Employee).all()
 
-
-for employee in emp:
-    print(f"{employee.id}. {employee.full_name} - {employee.position}")
-
-
-employees = sesija.query(Employee).filter_by(years_in_company = 15).first()
-
-#print(employees) # objects only useful for C and old languages
-print(employees.salary)
 '''
 #################### Update
 '''
