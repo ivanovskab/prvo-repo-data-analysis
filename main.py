@@ -26,6 +26,10 @@ def insert_sale(sesija, employee_id, product_id):
     sesija.commit()
     print("Prodazbata e zabelezana. ")
     return sale1
+
+print("Novi promeni vo nov brach")
+ime = input("Vnesete ime: ")
+print(f"Zdravo {ime}")
 '''
 p = insert_product(sesija, 'banani', '100')
 e = insert_employee(sesija, "Teo", 'teo@gmail.com', 25, 'software developer', 30000, 5)
